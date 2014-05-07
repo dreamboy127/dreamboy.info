@@ -1,0 +1,28 @@
+markdown:   rdiscount
+baseurl:    /dreamboy.me
+url:	    http://dreamboy127.github.io/dreamboy.me
+safe:       false
+permalink:  /:year/:month/:day/:title
+
+title:      dreamboyhome
+author:     
+    name:   dreamboy
+    email:  jerrychou127@gmail.com
+    github: http://github.com/dreamboy127
+production_url : http://dreamboy127.github.io/dreamboy.me
+atom_path : /atom.xml
+motto:      A boy with dream
+
+excerpt_separator: '<!-- dreamboy -->'
+
+paginate: 3 
+paginate_path: "/page:num"
+
+timezone: 'Asia/Shanghai'
+
+comments :
+    provider : duoshuo
+    duoshuo :
+        short_name : dreamboy127
+
+google_analytics: UA-50209605-1

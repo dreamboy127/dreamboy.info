@@ -1,0 +1,72 @@
+.pagination{
+	text-align: center;
+}
+.pagination span.previous{
+	float:left;
+	color: #2ca6cb;
+	font-size: 130%;
+	padding-top:6px;
+	padding-bottom:6px;
+	padding-left:20px;
+	padding-right:20px;
+}
+.pagination span.previous_disable{
+	visibility:hidden;
+	float:left;
+	width:102px;
+	height:58px;
+}
+.pagination span.previous a{
+	color: #2ca6cb;
+	text-decoration: none;
+}
+.pagination span.previous:hover{
+	background-color:#23241f;
+}
+
+.pagination span.next{
+	float:right;
+	color: #2ca6cb;
+	font-size: 130%;
+	padding-top:6px;
+	padding-bottom:6px;
+	padding-left:20px;
+	padding-right:20px;
+}
+.pagination span.next_disable{
+	visibility:hidden;
+	float:right;
+	width:100px;
+	height:58px;
+}
+.pagination span.next a{
+	color: #2ca6cb;
+	text-decoration: none;
+}
+.pagination span.next:hover{
+	background-color:#23241f;
+}
+.pagination span.pages{
+	text-align: center;
+	color: #2ca6cb;
+	font-size: 130%;
+
+}
+.pagination span.pages a{
+	margin-top:6px;
+	padding-top:6px;
+	padding-bottom:6px;
+	padding-left:20px;
+	padding-right:20px;
+}
+.pagination span.pages em{
+	margin-top:6px;
+	padding-top:6px;
+	padding-bottom:6px;
+	padding-left:20px;
+	padding-right:20px;
+}
+.pagination span.pages a:hover{
+	background-color:#23241f;
+	color:#fff;
+}

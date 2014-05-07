@@ -1,0 +1,37 @@
+pre {
+padding: 15px 70px;
+margin: 10px 30px;
+overflow: auto;
+background-color: #23241f;
+border: 1px solid #ccc;
+border-radius: 4px;
+color: inherit;
+white-space:pre;
+white-space:pre-wrap;
+word-break:break-all;
+word-wrap:break-word;
+}
+pre code, h2 code, h3 code, h4 code {
+margin: 0;
+padding: 0;
+background-color: transparent;
+border: 0;
+color: #f8f8f2;
+white-space: pre;
+}
+pre li{
+ list-style-type: decimal 
+}
+code {
+margin: 0 3px;
+padding: 2px 4px;
+background-color: #f9f2f4;
+border: 1px solid transparent;
+border-radius: 4px;
+color: #c7254e;
+font-size: 95%;
+white-space: nowrap;
+}
+code, pre {
+font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
+}

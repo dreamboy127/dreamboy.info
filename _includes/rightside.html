@@ -1,0 +1,22 @@
+<div class="rightside">
+	<div class="entry_right">
+		<div class="category">
+			<h4><a href="{{ site.baseurl }}/category.html">Category</a></h4>
+			<ul>
+				{% for category in site.categories %}
+				<li>
+					<a href="{{ site.baseurl }}/category.html#{{ category | first }}" title="view allposts">{{ category | first }}<span>{{ category | last | size }}</span></a>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+		<div class="tag">
+			<h4><a href="{{ site.baseurl }}/tag.html">tag</a></h4>
+			<div class="taglist">
+			{% for tag in site.tags %}
+				<a href="{{ site.baseurl }}/tag.html#{{ tag | first }}" style="margin: 5px; font-size: {{ tag | last | size | times: 4 | plus: 20 }}px;">{{ tag | first }}</a>
+			{% endfor %}
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,17 @@
+---
+layout: default
+title: category
+---
+{% for cate in site.categories %}
+	<div class='post-item'>
+		<div>
+			<a name='{{ cate | first }}'></a>
+			<h2>{{ cate | first }}</h2>
+			<ul>
+			{% for post in cate.last %}
+				<li><span>{{ post.date | date: '%Y/%m/%d' }}</span>&nbsp;&nbsp;&nbsp;<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+			{% endfor %}
+			</ul>
+		</div>
+	</div>
+{% endfor %}

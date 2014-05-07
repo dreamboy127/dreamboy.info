@@ -1,0 +1,27 @@
+#footer{
+	margin-bottom: 0em;
+	position:absolute;
+	bottom: 0em;
+	background: #23241f;
+	padding: 0 2%;
+	width: 96%;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	-webkit-box-shadow: 2px 4px 5px rgba(80,80,80,0.2);
+    box-shadow: 2px 4px 5px rgba(80,80,80,0.2);
+}
+#footer a {
+	color:#aaa;
+	font-weight: bold;
+	text-decoration: none;
+}
+.copyright {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
+	font-size: 100%;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+}
