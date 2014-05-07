@@ -25,4 +25,7 @@ comments :
     duoshuo :
         short_name : dreamboy127
 
-google_analytics: UA-50209605-1
+analytics :
+  provider : google 
+  google : 
+      tracking_id : 'UA-50209605-2'
