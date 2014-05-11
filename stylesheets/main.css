@@ -257,3 +257,11 @@ text-decoration: underline;
 .search-main #search_results .result p{
 
 }
+blockquote{
+width: 80%;
+display: inline-block;
+vertical-align: top;
+color: #aaaaaa;
+margin-right: 20px;
+line-height: 2;
+}
