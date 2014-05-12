@@ -117,7 +117,7 @@ hr {
 
 .container {
   width: 500px;
-  margin: 100px 
+  margin: 50px auto; 
 }
 
 @-webkit-keyframes fade-in {
