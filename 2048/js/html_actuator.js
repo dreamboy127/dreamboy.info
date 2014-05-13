@@ -47,7 +47,27 @@ HTMLActuator.prototype.clearContainer = function (container) {
 };
 
 HTMLActuator.prototype.addTile = function (tile) {
+  var text=new Array(18);
+  text[0] = " ";
+  text[1] = "夏";
+  text[2] = "商";
+  text[3] = "周";
+  text[4] = "秦";
+  text[5] = "汉";
+  text[6] = "三国";
+  text[7] = "晋";
+  text[8] = "南北朝";
+  text[9] = "隋";
+  text[10] = "唐";
+  text[11] = "五代<br>十国";
+  text[12] = "宋";
+  text[13] = "元";
+  text[14] = "明";
+  text[15] = "清";
+  text[16] = " ";
+  text[17] = " ";
   var self = this;
+  var text2 = function (n) { var r = 0; while (n > 1) r++, n >>= 1; return r; }
 
   var wrapper   = document.createElement("div");
   var inner     = document.createElement("div");
@@ -57,12 +77,12 @@ HTMLActuator.prototype.addTile = function (tile) {
   // We can't use classlist because it somehow glitches when replacing classes
   var classes = ["tile", "tile-" + tile.value, positionClass];
 
-  if (tile.value > 2048) classes.push("tile-super");
+  if (tile.value > 131072) classes.push("tile-super");
 
   this.applyClasses(wrapper, classes);
 
   inner.classList.add("tile-inner");
-  inner.textContent = tile.value;
+  inner.innerHTML = text[text2(tile.value)];
 
   if (tile.previousPosition) {
     // Make sure that the tile gets rendered in the previous position first
