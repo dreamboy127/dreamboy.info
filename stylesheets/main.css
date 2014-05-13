@@ -273,6 +273,9 @@ line-height: 2;
 	font-size:200%;
 	font-weight:bold;
 }
+.gamelist div{
+	width:90%;
+}
 .gamelist a{
 	margin: 0px 0px 10px 0px;
 }
