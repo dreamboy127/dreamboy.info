@@ -47,25 +47,22 @@ HTMLActuator.prototype.clearContainer = function (container) {
 };
 
 HTMLActuator.prototype.addTile = function (tile) {
-  var text=new Array(18);
+  var text=new Array(15);
   text[0] = " ";
-  text[1] = "夏";
-  text[2] = "商";
-  text[3] = "周";
-  text[4] = "秦";
-  text[5] = "汉";
-  text[6] = "三国";
-  text[7] = "晋";
-  text[8] = "南北朝";
-  text[9] = "隋";
-  text[10] = "唐";
-  text[11] = "五代<br>十国";
-  text[12] = "宋";
-  text[13] = "元";
-  text[14] = "明";
-  text[15] = "清";
-  text[16] = " ";
-  text[17] = " ";
+  text[1] = "花椒";
+  text[2] = "豆花";
+  text[3] = "烤肉";
+  text[4] = "燃面";
+  text[5] = "驴肉面";
+  text[6] = "串串香";
+  text[7] = "冷锅鱼";
+  text[8] = "冷锅鸡";
+  text[9] = "干锅鸡";
+  text[10] = "干锅兔";
+  text[11] = "烧鸡公";
+  text[12] = "德庄<br>火锅";
+  text[13] = "翘脚<br>牛肉";
+  text[14] = "爆炒<br>龙虾";
   var self = this;
   var text2 = function (n) { var r = 0; while (n > 1) r++, n >>= 1; return r; }
 
