@@ -47,22 +47,21 @@ HTMLActuator.prototype.clearContainer = function (container) {
 };
 
 HTMLActuator.prototype.addTile = function (tile) {
-  var text=new Array(15);
+  var text=new Array(14);
   text[0] = " ";
-  text[1] = "花椒";
-  text[2] = "豆花";
-  text[3] = "烤肉";
-  text[4] = "燃面";
-  text[5] = "驴肉面";
-  text[6] = "串串香";
-  text[7] = "冷锅鱼";
-  text[8] = "冷锅鸡";
-  text[9] = "干锅鸡";
-  text[10] = "干锅兔";
-  text[11] = "烧鸡公";
-  text[12] = "德庄<br>火锅";
-  text[13] = "翘脚<br>牛肉";
-  text[14] = "爆炒<br>龙虾";
+  text[1] = "花椒";//2
+  text[2] = "豆花";//4
+  text[3] = "烤肉";//8
+  text[4] = "驴肉面";//16
+  text[5] = "串串香";//32
+  text[6] = "冷锅鱼";//64
+  text[7] = "冷锅鸡";//128
+  text[8] = "干锅鸡";//256
+  text[9] = "干锅兔";//512
+  text[10] = "烧鸡公";//1024
+  text[11] = "德庄<br>火锅";//2048
+  text[12] = "翘脚<br>牛肉";//4096
+  text[13] = "爆炒<br>龙虾";//9192
   var self = this;
   var text2 = function (n) { var r = 0; while (n > 1) r++, n >>= 1; return r; }
 
