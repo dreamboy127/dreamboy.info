@@ -265,3 +265,14 @@ color: #aaaaaa;
 margin-right: 20px;
 line-height: 2;
 }
+.gamelist{
+	padding: 10px 40px;
+}
+.gamelist h1{
+	margin: 0px 0px 10px 0px;
+	font-size:200%;
+	font-weight:bold;
+}
+.gamelist a{
+	margin: 0px 0px 10px 0px;
+}
