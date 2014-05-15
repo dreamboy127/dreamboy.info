@@ -68,4 +68,18 @@
 	color: #dfdfdf;
 	text-decoration: underline;
 }
-
+.rightside .entry_right .link h4{
+	font-size: 28px;
+	border-bottom: 3px solid #dbdbdb;
+}
+.rightside .entry_right .link .linklist{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.rightside .entry_right .link .linklist a{
+	color: #9f9f9f;
+}
+.rightside .entry_right .link .linklist a:hover{
+	color: #dfdfdf;
+	text-decoration: underline;
+}
