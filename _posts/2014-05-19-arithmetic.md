@@ -5,6 +5,8 @@ categories: [acm]
 tags: [acm,数据结构]
 description: 使用栈数据结构实现四则运算，加减乘除和括号
 ---
+在学习数据结构过程，发现可以使用栈来实现四则运算，首先将中缀表达式表示为后缀表达式，可将表达式中各运算的优先级进行重新排列，再进行第二步运算，具体程序如下
+{{ site.excerpt_separator }}
 ```c
 // LinkStack.cpp : Defines the entry point for the console application.
 //
@@ -17,7 +19,6 @@ description: 使用栈数据结构实现四则运算，加减乘除和括号
 #define DATA 1
 #define OPER 0
 #define OVER -1
-{{ site.excerpt_separator }}
 typedef struct StackNode
 {
 	int data;
