@@ -54,10 +54,6 @@ char prioritytable[6][6]=  //运算符优先级数组
 	{'<','<','<','<','=','o'},
 };
 
-/*DataorOper frontString[]={{9,DATA},{'+',OPER},{'(',OPER},{3,DATA},{'-',OPER},
-										{1,DATA},{')',OPER},{'*',OPER},{3,DATA},{'+',OPER},
-										{14,DATA},{'/',OPER},{2,DATA},{-1,OVER}};*/
-//char String[]="19+(3-1)*13+14/2";
 int main(int argc, char* argv[])
 {
 	char String[30];
