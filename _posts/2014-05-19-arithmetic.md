@@ -17,6 +17,7 @@ description: 使用栈数据结构实现四则运算，加减乘除和括号
 #define DATA 1
 #define OPER 0
 #define OVER -1
+{{ site.excerpt_separator }}
 typedef struct StackNode
 {
 	int data;
