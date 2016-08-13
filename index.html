@@ -1,0 +1,26 @@
+---
+layout: default
+title: dreamboy
+---
+{% for post in paginator.posts %}
+<article class="entry">
+  <header>
+    <h1 class="entry-title">
+      <a href="{{ site.baseurl }}{{ post.url }}" target="_self">{{ post.title }}</a>
+    </h1>
+    <p class="entry-meta">
+      <time class="iconfont-time">{{ post.date | date: '%Y/%m/%d %A' }}</time>
+    </p>
+  </header>
+
+  {% assign fragments = post.content | split: site.excerpt_separator %}
+  {% assign size = fragments | size %}
+  <div class="article-content">
+  {{ fragments | first }}
+  
+  {% if size > 1 %}<span class="more">...</span><p class="read-more"><a href="{{ site.baseurl }}{{ post.url }}" target="_self">阅读全文 &rarr;</a></p>{% endif %}
+  </div>
+</article>
+{% endfor %}
+
+{% include pagination.html %}

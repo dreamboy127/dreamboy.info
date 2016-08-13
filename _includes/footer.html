@@ -1,0 +1,36 @@
+<footer>
+    <div id="footer">
+		<p class="copyright">
+			<span>Copyright © 2014 dreamboy. Hosted by </span>
+			<a href="http://github.com/dreamboy127/dreamboy.me/" target="_blank">GitHub</a>
+			<span> and powered by </span>
+			<a href="http://github.com/mojombo/jekyll">Jekyll</a>
+		</p>
+	</div>
+	<script type="text/javascript" src="{{ site.baseurl }}/prettify/prettify.js"></script>
+	<script type="text/javascript">
+    // 需要引入jQuery
+		$(document).ready(function() {
+			$('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto');
+			prettyPrint();
+		});
+	</script>
+	<script type="text/javascript">
+		$("#back-top").hide();
+		$(document).ready(function () {
+			$(window).scroll(function () {
+				if ($(this).scrollTop() > 200) {
+				$('#back-top').fadeIn();
+			} else {
+				$('#back-top').fadeOut();
+			}
+		});
+		$('#back-top a').click(function () {
+			$('body,html').animate({
+			  scrollTop: 0
+			}, 1200);
+			return false;
+		});
+	});
+	</script>
+</footer>
