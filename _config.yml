@@ -1,6 +1,6 @@
 markdown:   rdiscount
 baseurl:    
-url:	    http://dreamboy.info
+url:	    http://dreamboyhome.me
 safe:       false
 permalink:  /:year/:month/:day/:title
 
@@ -9,7 +9,7 @@ author:
     name:   dreamboy
     email:  jerrychou127@gmail.com
     github: http://github.com/dreamboy127
-production_url : http://dreamboy.info
+production_url : http://dreamboyhome.me
 atom_path : /atom.xml
 motto:      A boy with dream
 
