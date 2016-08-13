@@ -1,5 +1,5 @@
 markdown:   rdiscount
-baseurl:    / 
+baseurl:    http://dreamboyhome.me 
 url:	    http://dreamboyhome.me
 safe:       false
 permalink:  /:year/:month/:day/:title
